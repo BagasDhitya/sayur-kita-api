@@ -3,7 +3,7 @@
     "target": "es2016",
     "module": "commonjs",
     "moduleResolution": "Node",
-    "outDir": "./dist",
+    "outDir": "./public",
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
