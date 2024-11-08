@@ -28,7 +28,7 @@ export class AuthController {
       });
     } catch (error: any) {
       res.status(404).send({
-        message: `Failed to login`,
+        message: `Failed to login : ${error}`,
         detail: error.errors,
         status: res.statusCode,
       });
