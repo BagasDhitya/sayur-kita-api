@@ -5,7 +5,7 @@ import cors from "cors";
 import adminRouter from "./routers/admin.router";
 import userRouter from "./routers/user.router";
 import authRouter from "./routers/auth.router";
-import messageRouter from "./routers/message.router";
+// import messageRouter from "./routers/message.router";
 import schedulerRouter from "./routers/scheduler.router";
 import queueRouter from "./routers/queue.router";
 import paymentRouter from "./routers/payment.router";
@@ -28,7 +28,7 @@ app.use(
 app.use("/api/admin", adminRouter);
 app.use("/api/users", userRouter);
 app.use("/api/auth", authRouter);
-app.use("/api/messages", messageRouter);
+// app.use("/api/messages", messageRouter);
 app.use("/api/options", schedulerRouter);
 app.use("/api/queue", queueRouter);
 app.use("/api/payments", paymentRouter);
